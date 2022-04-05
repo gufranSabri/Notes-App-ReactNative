@@ -1,11 +1,7 @@
 import React from 'react';
-import {View, StyleSheet, Text, TouchableOpacity, TextInput } from 'react-native';
-
-import SQLite from 'react-native-sqlite-storage';
+import {View, StyleSheet, TextInput } from 'react-native';
 
 class Note extends React.Component {
-
-
     constructor(props){
       super(props)
       this.state = {
@@ -21,7 +17,6 @@ class Note extends React.Component {
     }
 
     render() {
-      
       return (
         <View style={styles.container}>
           <TextInput 

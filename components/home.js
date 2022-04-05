@@ -25,7 +25,6 @@ class Home extends React.Component {
                     this.setState({selectedId:-1, headerLeft:'Notes', headerRight:'plus'});
                     return true;
                 }
-                
             }
         );
     }
